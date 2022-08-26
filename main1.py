@@ -83,9 +83,9 @@ def findClickPositions(needle_img_path, haystack_img_path, threshold=0.6, debug_
     return points
 
 
-points = findClickPositions('basic_lut.png', 'screen2.png', debug_mode='points')
+points = findClickPositions('img/basic_lut.png', 'img/screen2.png', debug_mode='points')
 # print(points)
-points = findClickPositions('basic_lut.png', 'screen2.png', 
+points = findClickPositions('img/basic_lut.png', 'img/screen2.png', 
                             threshold=0.6, debug_mode='rectangles')
 print(points)
 print('Done.')
